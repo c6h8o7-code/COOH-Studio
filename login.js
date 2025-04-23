@@ -503,7 +503,7 @@ function login(){
   let password = document.querySelector("body > div.inputBox > input[type=password]:nth-child(2)").value;
   console.log(username, password, hex_sha512(username), hex_sha512(password)) 
   
-  if(sha512[hex_sha512(username)] === hex_sha512(password)) console.log("login accept!")
+  if(sha512[hex_sha512(username)] === hex_sha512(password)) alert("成功登录!（test）")
   else alert("login failed!")
 }
 console.log(666666)
