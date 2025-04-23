@@ -499,5 +499,7 @@ function int64add5(dst, a, b, c, d, e)
 function login(){
   let username = document.querySelector("body > div.inputBox > input[type=text]:nth-child(1)").innerText;
   let password = document.querySelector("body > div.inputBox > input[type=password]:nth-child(2)").innerText;
+  console.log(username, password, hex_sha512(username), hex_sha512(password))
+  
   if(sha512[hex_sha512(username)] === hex_sha512(password)) console.log("login accept!")
 }
