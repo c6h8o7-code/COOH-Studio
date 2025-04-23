@@ -502,5 +502,6 @@ function login(){
   console.log(username, password, hex_sha512(username), hex_sha512(password)) 
   
   if(sha512[hex_sha512(username)] === hex_sha512(password)) console.log("login accept!")
+  else alert("login failed!")
 }
 console.log(666666)
