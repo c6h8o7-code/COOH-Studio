@@ -503,3 +503,4 @@ function login(){
   
   if(sha512[hex_sha512(username)] === hex_sha512(password)) console.log("login accept!")
 }
+console.log(666666)
