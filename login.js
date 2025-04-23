@@ -2,7 +2,7 @@ let sha512 = {"c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd47
   "291c55bd5f735359196614f3fd76a5a862d6e3fc8e0b33c03fb87c3a9faf00da62dbbbe02da78315872cb52c279b68d9f28763672269bc67a19213fe81215347"}
 /*
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-512, as defined
- * in FIPS 180-2
+ * in FIPS 180-2 
  * Version 2.2 Copyright Anonymous Contributor, Paul Johnston 2000 - 2009.
  * Other contributors: Greg Holt, Andrew Kepert, Ydnar, Lostinet
  * Distributed under the BSD License
