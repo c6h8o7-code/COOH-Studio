@@ -499,8 +499,8 @@ function int64add5(dst, a, b, c, d, e)
   dst.h = (w2 & 0xffff) | (w3 << 16);
 }
 function login(){
-  let username = document.querySelector("body > div.inputBox > input[type=text]:nth-child(1)").value;
-  let password = document.querySelector("body > div.inputBox > input[type=password]:nth-child(2)").value;
+  let username = document.querySelector("body > div > div.inputBox > input[type=text]:nth-child(1)").value;
+  let password = document.querySelector("body > div > div.inputBox > input[type=password]:nth-child(2)").value;
   console.log(username, password, hex_sha512(username), hex_sha512(password)) 
   
   if(sha512[hex_sha512(username)] === hex_sha512(password)) alert("成功登录!（test）")
